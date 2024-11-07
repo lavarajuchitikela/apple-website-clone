@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 53, 53);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 13px 21px;
+    color: rgb(244, 214, 214);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.2px;
+    font-weight: 400;
+}
+
+nav ul li i{
+    font-size: 18px;
+}
+
+#apple_icon{
+    font-size: 18px;
+    color: rgb(241, 228, 228);
+}
+
+.banner_text h1{
+    font-size: 75px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.009em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.banner{
+    padding-top: 100px;
+    background: #f5f5f7;
+    position: relative;
+    top: 0px;
+}
+
+.banner_text{
+    position: relative;
+    top: 0;
+}
+
+.banner_text p{
+    text-align: center;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #515154;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 30px;
+    position: relative;
+}
+
+.banner-img{
+    display: flex;
+    overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    position: relative;
+    left: -20px;
+}
+
+.banner-img div h1{
+    position: relative;
+    left: -150px;
+    color: rgb(174, 30, 44);
+    font-size: 65px;
+}
+
+.h1{
+    width: 344px;
+    height: 522px;
+    position: relative;
+    top: 200px;
+}
+.h2{
+    width: 366px;
+    height: 552px;
+    position: relative;
+    left: -25px;
+}
+.h3{
+    width: 193px;
+    height: 312px;
+    position: relative;
+    left: -100px;
+}
+.h4{
+    width: 379px;
+    height: 570px;
+    position: relative;
+    left: -70px;
+}
+.h5{
+    width: 366px;
+    height: 557px;
+    position: relative;
+    left: -100px;
+}
+.h6{
+    width: 590px;
+    height: 662px;
+    position: relative;
+    left: -150px;
+    top: 240px;
+}
+
+.middle_img{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iphone h1{
+    font-size: 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 150px;
+    margin-left: 280px;
+}
+
+.iphone_img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.iphone_img img{
+    padding: 10px 80px 10px 0px;
+}
+
+.i_13{
+    margin-top: 40px;
+}
+
+.i_se{
+    margin-top: 60px;
+}
+
+.i_14_name{
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px 0px 20px 20px;
+}
+
+.i_14_name_2{
+    color: rgb(174, 30, 44);;
+}
+
+.buy{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 50px;
+}
+
+.buy button{
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: rgb(174, 30, 44);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.buy p{
+    padding: 8px 16px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+
+.buy i{
+    padding-top: 12px;
+}
+
+.aids{
+    background-image: url(images/icon_parentheses__s8nlxns3g8ya_small.svg);
+    background-size: 33%;
+    width: 100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.aids_text{
+    padding-top: 0;
+}
+
+.aids p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515154;
+    line-height: 1;
+}
+
+.aids p em{
+    color: rgb(174, 30, 44);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+.aids_content{
+    padding-top: 170px;
+}
+
+.strap_hedding{
+    font-size: 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 150px;
+    margin-left: 280px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.straps_img{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    margin-bottom: 200px;
+}
+
+.straps_img img{
+    padding: 50px 100px;
+}
+
+.watch_8{
+    width: 380px;
+    margin-top: 50px;
+    
+}
+
+.strap_buy{
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 280px;
+    font-size: 12px;
+}
+
+.series_8{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sports_loop{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sports_band{
+    text-align: center;
+}
+
+#buy_1{
+    margin-top: 20px;
+    margin-right: 10px
+}
+
+#buy_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#buy_2 button{
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: rgb(174, 30, 44);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#buy_3{
+    text-align: center;
+}
+
+#buy_3 button{
+    margin-top: 43px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: rgb(174, 30, 44);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.watch_faces{
+    margin-left: 280px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.watch_heading{
+    font-size: 48px;
+}
+
+.watch_tag{
+    font-size: 19px;
+    color: #86868b;
+    line-height: 1.4211026316;
+    font-weight: 400;
+}
+
+.faces_images{
+    display: flex;
+    justify-content: center;
+}
+
+.faces_images div{
+    padding: 80px;
+}
+
+.faces_images h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.funds{
+    background-image: url(images/icon_parentheses__s8nlxns3g8ya_small.svg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    width: 100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.funds h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515154;
+    line-height: 1;
+    padding-top: 140px;
+}
+
+.funds em{
+    font-style: normal;
+    color: rgb(174, 30, 44);
+}
+
+.global_funds{
+    background-image: url(images/icon_parentheses__s8nlxns3g8ya_small.svg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    width: 100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.global_funds h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515154;
+    line-height: 1;
+    padding-top: 140px;
+}
+
+.global_funds em{
+    font-style: normal;
+    color: rgb(174, 30, 44);
+}
+
+.bottom{
+    background: #f5f5f7;
+    margin-top: 100px;
+    position: relative;
+}
+
+.bottom h1{
+    top: 100px;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 58px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.bottom_content{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.bottom_content div{
+    
+}
+
+.bottom_content div p{
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.fa-arrow-right{
+    font-size: 40px;
+    color: #afafb4;
+    position: relative;
+    top: -20px;
+    left: 100px;
+    font-weight: 600;
+}
+
+.bottom h2{
+    text-align: center;
+    color: rgb(174, 30, 44);
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 150px;
+}
+
+.bottom button{
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: rgb(174, 30, 44);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.donate_button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_heading{
+    background: #f5f5f7;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bottom_heading_text{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    margin: 0% 15%;
+    color: #afafb4;
+    font-size: 14px;
+
+}
+
+/* .line_1{
+    height: 1px;
+    background-color: black;
+    
+} */
+
+.final_footer{
+    display: flex;
+    padding: 0px 150px;
+    justify-content: space-around;
+    background: #f5f5f7;
+    color: #4d4d4f;
+
+}
+
+.final_footer h3{
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.final_footer p{
+    font-size: 14px;
+    padding-top: 10px;
+}
